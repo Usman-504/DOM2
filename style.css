@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background */
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Soft shadow */
+    width: 300px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(0, 255, 238);
+    color: white;
+    margin-right: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.btn {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(0, 255, 238);
+    color: white;
+    margin-right: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+
+
+
+
+#container{
+    display: block;
+    background-color: yellow;
+    border-radius: 20px;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    padding: 20px;
+   color: black;
+    align-items: center;
+    
+}
+
+  .form{
+    display: block;
+    background-color: rgb(0, 217, 255);
+    border-radius: 20px;
+    justify-content: center;
+    padding: 20px;
+   color: black;
+    align-items: center;
+    
+}
+
+/* button{
+    display: block;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+} */
